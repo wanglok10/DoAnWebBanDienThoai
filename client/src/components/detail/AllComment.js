@@ -140,75 +140,7 @@ function AllComment(props) {
           )}
         </>
       ))}
-      {/* <Col span={18}>
-            <div className="all-comment-info">
-              <div className="all-comment-info-name">
-                C
-              </div>
-              <strong>Cao Kha Hieu</strong>
-            </div>
-            <div className="all-comment-content">
-              Ip 11 này là loại đầy đủ phụ kiện hay loại mới ko pk đi kèm thế shop
-            </div>
-            <div className="all-comment-more">
-              <a className="all-comment-more-chat" onClick={() => showRepComment()}>
-                <WechatOutlined style={{color: '#e11b1e'}}/> <p> Trả lời</p>
-              </a>
-            </div>
-            <div className="all-comment-rep-list">
-              <div className="all-comment-rep-list-item">
-
-                <div className="all-comment-info">
-                  <div className="all-comment-info-name">
-                    C
-                  </div>
-                  <strong>Cao Kha Hieu</strong>
-                </div>
-
-                <div className="all-comment-content">
-                  Ip 11 này là loại đầy đủ phụ kiện hay loại mới ko pk đi kèm thế shop
-                </div>
-
-                <div className="all-comment-more">
-                  <a className="all-comment-more-chat">
-                    <WechatOutlined style={{color: '#e11b1e'}}/> <p> Trả lời</p>
-                  </a>
-                </div>
-                
-              </div>
-              <div className="all-comment-rep-list-item">
-
-                <div className="all-comment-info">
-                  <div className="all-comment-info-name">
-                    C
-                  </div>
-                  <strong>Cao Kha Hieu</strong>
-                </div>
-
-                <div className="all-comment-content">
-                  Ip 11 này là loại đầy đủ phụ kiện hay loại mới ko pk đi kèm thế shop
-                </div>
-
-                <div className="all-comment-more">
-                  <a className="all-comment-more-chat">
-                    <WechatOutlined style={{color: '#e11b1e'}}/> <p> Trả lời</p>
-                  </a>
-                </div>
-                
-              </div>
-            </div>
-          </Col>
-          {
-            repCmt.status === true ? (
-            <Col span={18} align='start' style={{ alignItems:'center'}}>
-            <div className="comment-area" style={{display: 'flex', alignItems:'center'}}>
-              <textarea placeholder='Xin mời để lại câu hỏi, CellphoneS sẽ trả lời trong 1h từ 8h - 22h mỗi ngày.' rows={10} cols={3}></textarea>
-            </div>
-            <div className="comment-send">
-              <button>Trả lời</button>
-            </div>
-          </Col>) : ''
-          } */}
+      
     </div>
   );
 }

@@ -5,7 +5,7 @@ import cloudinary from 'cloudinary'
 import {data} from '../data.js'
 
 export const getAllProduct = expressAsyncHandler(async (req, res) => {
-    const product = await ProductModel.insertMany(data.products)
+    //const product = await ProductModel.insertMany(data.products)
 
     const products = await ProductModel.find({})
     res.send(products)
